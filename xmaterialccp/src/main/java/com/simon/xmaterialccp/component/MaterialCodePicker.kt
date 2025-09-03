@@ -178,11 +178,11 @@ class MaterialCodePicker {
             ) {
                 Scaffold(
                     topBar = {
-                        TopAppBar(
+                        CenterAlignedTopAppBar(
                             title = {
                                 Text(
                                     text = stringResource(R.string.select_country_region),
-                                    modifier = Modifier.fillMaxWidth(),
+                                    modifier = Modifier,
                                     textAlign = TextAlign.Center,
                                     style = appbartitleStyle
                                 )
